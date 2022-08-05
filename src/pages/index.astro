@@ -1,0 +1,61 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import BlogPostPreview from "../components/BlogPostPreview.astro";
+
+let title = "Hi there! My name is Phúc 'Scott' Nguyễn";
+// let description = "I'm a Junior Front-end Web Developer. Welcome to my personal minimalistic blog, where I post random thoughts and things I experience in my life.";
+
+// Use Astro.glob to fetch all post with associated frontmatter
+const unsortedPosts = await Astro.glob("./posts/*.md");
+const posts = unsortedPosts.sort(function (a, b) {
+	return (
+		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
+	);
+});
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={'Welcome to my blog'} description={'My personal minimalistic blog'} />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<main class="content">
+				<section class="intro">
+					<h1>{title}</h1>
+					<p>I'm currently a <b>Junior Front-end Web Developer</b>. Welcome to my personal minimalistic blog, where I post random thoughts and things I experience in my life.</p>
+					<p>Powered by <a href="https://astro.build" target="_blank">Astro</a> and <a href="https://vercel.com" target="_blank">Vercel</a>!</p>
+				</section>
+				<section aria-label="Blog post list">
+					{posts.map(({ url, frontmatter }) => (
+						<BlogPostPreview
+							title={frontmatter.title}
+							description={frontmatter.description}
+							publishDate={frontmatter.publishDate}
+							url={url}
+						/>
+					))}
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
+
+<style>
+	.content {
+		margin-top: 4rem;
+		margin-bottom: 8rem;
+	}
+
+	.intro {
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+		border-bottom: 4px solid var(--theme-divider);
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+</style>
