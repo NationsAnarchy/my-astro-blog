@@ -13,6 +13,7 @@
     "astro": "^1.0.0-rc.6"
   },
   "dependencies": {
+    "@astrojs/vercel": "^0.4.0",
     "preact": "^10.7.3"
   }
 }
