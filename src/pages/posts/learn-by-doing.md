@@ -7,7 +7,9 @@ publishDate: '17 Aug 2022'
 
 For me personally, having the **interest (again) towards software engineering/development** in general - it really comes from _my natural curiosity and passion of technology in general_.
 
-And well, when you see someone like **Elon Musk** - saying something along this line: > Everything is free, you can have a job without a college degree.
+And well, when you see someone like **Elon Musk** - saying something along this line:
+
+> Everything is free, you can have a job without a college degree.
 
 It's definitely true, to a certain extent. Look at YouTube, I am definitely sure that you can find **thousands of hours long videos teaching you about anything possibly related to programming**, from **web to mobile**, or even theories stuff for computer science (that I am too lazy to learn again, LOL) such as **algorithms and data structures**. As the world is going towards the _revolution of digital era_, when you see kids so small using _smart devices you can only dream of having back in like 10 years ago_ - I have to say that the impact IT has been making, and continue making is just **absolutely immense**.
 
