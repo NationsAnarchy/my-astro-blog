@@ -17,7 +17,7 @@ As of right now, doing web development, working with HTML and CSS, and then Java
 
 I recently found out this website, which is called [frontendmentor.io](https://www.frontendmentor.io/) - as it's a **perfect place to practice your front-end development skills, showcasing your work, and help others to complete their own challenges**. Some of the comments I received were really **mind-blowing**, which is something I never expected before.
 
-Feel free to look at my own profile [here](https://www.frontendmentor.io/profile/NationsAnarchy). I will try to practice even more with some challenges featured on the website.
+Feel free to look at my own profile **[here](https://www.frontendmentor.io/profile/NationsAnarchy)**. I will try to practice even more with some challenges featured on the website.
 
 That's it for me - for now. Have a nice day, whoever you are - and thank you for reading!
 
