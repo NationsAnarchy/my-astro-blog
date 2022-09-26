@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/BlogPost.astro'
-title: 'Now I know why learning by doing something is the best'
+title: 'Learning by doing something is the best'
 description: 'Like, seriously so true!'
 publishDate: '17 Aug 2022'
 ---
